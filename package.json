@@ -1,0 +1,20 @@
+{
+  "name": "hrms-employee-lifecycle-automation",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript POM framework automating the OrangeHRM employee lifecycle (CRUD) scenario",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "typescript": "^5.6.0"
+  }
+}
